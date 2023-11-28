@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-size: 25px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+body {
+   background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 50%;
+    /* height: 100%; */
+}
+
+
+.header__nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header__nav-link{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.aboutme,
+.experience,
+.education,
+.code,
+.skills,
+.qualities,
+.languages{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+li
+{
+    padding: 15px;
+}
+
+ 
+
